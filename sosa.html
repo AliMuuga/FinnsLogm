@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/normalize.css">
+  <link rel="stylesheet" href="CSS/Styles.css">
+  <link rel="icon" type="image/png" href="Imgs/Baby.png">
+  <title>Sosa - Finns Log</title>
+  <style>
+    /* Bouncing Animation */
+    @keyframes bounce {
+      0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+      }
+      40% {
+        transform: translateY(-10px);
+      }
+      60% {
+        transform: translateY(-5px);
+      }
+    }
+
+    /* Style for the Bouncing Button */
+    .listen-here {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      animation: bounce 2s infinite;
+      transition: background-color 0.3s ease;
+    }
+
+    .listen-here:hover {
+      background-color: #555;
+    }
+
+    /* Social Media Icons Styling */
+    .social-icons {
+      margin-top: 20px;
+    }
+
+    .social {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 15px;
+    }
+
+    .social li a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #333;
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .social li a:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="header" id="header">
+    <div class="container">
+      <a href="index.html" class="logo">Finns Log</a>
+      <ul class="main-nav">
+        <li><a href="index.html#Creatives">Creatives</a></li>
+        <li><a href="index.html#Departments">Departments</a></li>
+        <li><a href="index.html#JoinUs">Join us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1>Sosa</h1>
+    <p>"HERE WE SHALL PLACE A QUOTE BY THE ARTIST"</p><br>
+    <img src="Imgs/sosa-1 - Copy.jpg" width="200" height="200" alt="Cassidy Alfredson Image">
+
+    <!-- Start Music Previews Section -->
+    <div class="music-previews">
+      <br><h2>Listen to Sosa</h2><br>
+      
+      <!-- Link to your website for listening -->
+      <p><a href="https://yourwebsite.com" class="listen-here">Listen Here</a></p>
+    </div>
+    <!-- End Music Previews Section -->
+
+    <!-- Social Media Icons Section -->
+    <br><div class="social-icons">
+      <h3>Follow Sosa</h3><br>
+      <ul class="social">
+        <li><a href="https://facebook.com" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://instagram.com" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://youtube.com" target="_blank" class="youtube"><i class="fab fa-youtube"></i></a></li>
+        <li><a href="https://spotify.com" target="_blank" class="spotify"><i class="fab fa-spotify"></i></a></li>
+      </ul>
+    </div><br>
+    <!-- End Social Media Icons Section -->
+
+  </div>
+
+  <footer id="footer-section">
+    <div class="footer container">
+        <div class="footer-box">
+            <h3>Finns Log</h3>
+            <ul class="social">
+        <li><a href="https://facebook.com" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://instagram.com" target="_blank" class="instagram"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a></li>
+      </ul>
+            <p class="text">We are not on social media, feel free to tap the icons.</p>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2024 Finns Log. All rights reserved.</p>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
